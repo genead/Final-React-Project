@@ -1,0 +1,23 @@
+.cart__wrapper {
+    top: 6.5em !important; 
+    border-radius: 12px;
+    border: 1px solid gray;
+    z-index: 10;
+}
+.cart__innerWrapper {
+    height: max-content;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+.cart__cartTotal {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.circle {
+    color: grey;
+    transition: transform 0.2s linear;
+}
+.circle:hover {
+    transform: rotate(90deg);
+}
