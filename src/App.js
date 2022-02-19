@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header/Header';
 import NotFound from './NotFound';
 import ProductsPage from './ProductsPage/ProductsPage';
-import ProductDetailPage from './ProductDetailsPage/ProductDetailPage';
+// import ProductDetailPage from './ProductDetailsPage/ProductDetailPage';
 import CheckoutPage from './CheckoutPage/CheckoutPage';
 import Cart from './CartPage/Cart';
 
@@ -15,7 +15,7 @@ function App() {
         <Routes >
           <Route path='/' element={<Header />} >
             <Route index element={<ProductsPage />} />
-            <Route path='/productsPage' element={<ProductDetailPage />} />
+            {/* <Route path='/productsPage' element={<ProductDetailPage />} /> */}
             <Route path='/checkoutPage' element={<CheckoutPage />} />
             <Route  path='/cart' element={<Cart />} />
             <Route path="*" element={<NotFound />} />

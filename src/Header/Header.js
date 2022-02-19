@@ -1,14 +1,15 @@
-import React, { useContext } from "react";
-import { Link, NavLink, Outlet } from "react-router-dom";
+import React from "react";
+// import React, { useContext } from "react";
+import {  Outlet } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css'
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import CartBtn from "../CartPage/CartBtn";
 
 
 const Header = () => {
 	// const { cartItems, showHideCart } = useContext(CartContext);
-	const state = useSelector((state) => state.handleCart)
+	// const state = useSelector((state) => state.handleCart)
 	return (
 		<div>
 			<Navbar className="shadow py-3 navbar fw-normal fixed-top" bg="light" expand="sm" >
@@ -18,7 +19,7 @@ const Header = () => {
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="justify-content-center me-auto font-weight-normal justify-content-center">
 							<Nav.Link className="justify-content-center mt-2" href="/">ProductsPage</Nav.Link>
-							<Nav.Link className="justify-content-center mt-2" href="/productsPage">DetailsPage</Nav.Link>
+							{/* <Nav.Link className="justify-content-center mt-2" href="/productsPage">DetailsPage</Nav.Link> */}
 							<Nav.Link className="justify-content-center mt-2" href="/checkoutPage">CheckoutPage</Nav.Link>
 							
 						</Nav>
