@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.02392f66.css",
-    "main.js": "/static/js/main.af97ba6c.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/index.html",
-    "main.02392f66.css.map": "/static/css/main.02392f66.css.map",
-    "main.af97ba6c.js.map": "/static/js/main.af97ba6c.js.map"
+    "main.css": "/Final-React-Project/static/css/main.967dc006.css",
+    "main.js": "/Final-React-Project/static/js/main.a99f874a.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Final-React-Project/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/Final-React-Project/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Final-React-Project/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Final-React-Project/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Final-React-Project/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/Final-React-Project/index.html",
+    "main.967dc006.css.map": "/Final-React-Project/static/css/main.967dc006.css.map",
+    "main.a99f874a.js.map": "/Final-React-Project/static/js/main.a99f874a.js.map"
   },
   "entrypoints": [
-    "static/css/main.02392f66.css",
-    "static/js/main.af97ba6c.js"
+    "static/css/main.967dc006.css",
+    "static/js/main.a99f874a.js"
   ]
 }
