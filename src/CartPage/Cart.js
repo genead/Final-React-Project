@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
-import {  delItem } from '../redux/actions/index'
+import {  delItem, addItem } from '../redux/actions/index'
 import { NavLink } from 'react-router-dom'
 import './Cart.css'
 
@@ -13,9 +13,9 @@ const Cart = () => {
     const handleClose = (item) => {
         dispatch(delItem(item ) )
     }
-    // const handleAdd = (item) => {
-    //     dispatch(addItem(item))
-    // }
+    const handleAdd = (item) => {
+        dispatch(addItem(item))
+    }
     var total = 0;
     const itemList = (item) => {
         total = total + item.price; 
@@ -27,10 +27,9 @@ const Cart = () => {
                 <div className="px-4 my-6 bg-light rounded-3 " key={cartItem.id}>
                     <div className="container py-4">
                         <div className=" float-end outline-none" aria-label="Close">
-                            {/* <div className="text-center circle" type="btn" onClick={() => handleAdd(cartItem )}> 
-                            <span className="fa fa-arrow-up me-1 text-muted "></span>
-                            </div> */}
-                            <div className="text-center circle" type="btn" onClick={() => handleClose(cartItem)} > <span className="fa fa-close me-1 text-muted "></span>
+                            <div className="text-center list-group-item " type="btn" onClick={() => handleAdd(cartItem )}  style={{marginBottom: "5px"}}> add more
+                            </div>
+                            <div className="text-center list-group-item " type="btn" onClick={() => handleClose(cartItem)} > cancel item
                             </div>
                             
                         </div>
