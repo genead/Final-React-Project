@@ -2,7 +2,7 @@
   "name": "final-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://genead.github.io/Final-React-Project",
+  "homepage": "http://genead.github.io/Final-React-Project",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/memoize": "^0.7.5",
